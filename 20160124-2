@@ -1,0 +1,64 @@
+//swift
+let num = 66.0
+let Apples = 66
+let sum = "i have \(Apples) apples."
+var name = "chen"
+var apple = 66
+让编译器自己判断类型。
+当然也可以自己指定：
+let sum: Double = 66
+var sum: Double = 66
+
+用[]创建数组或者字典
+var shoppingList = ["catfish", "water", "fruit"]
+shoppingList[1] = "bottle of water"
+
+var occpuations = ["she": "hehe", "he": "haha"]
+occpuations["he"] = "heihei"
+
+创建一个空数组或者字典
+let empty = String[]()
+let emptyDictionary = Dictionary<String, Float>()
+
+在swift中，String类型和Foundation NSString类进行了无缝桥接。
+
+判断字符串是否为空：
+xxx.isEmpty
+
+Cocoa中的NSString，是引用传递。除非特别要求其进行值复制，否则字符串不会进行赋值新副本操作
+Swift默认字符串的复制方式传递的是值传递
+
+Swift中可以用for-in循环来遍历字符串中的每一个字符
+for character in "Dog~" {
+	print(character)
+}
+
+countElement -> let a = str1.characters.count print(\(d))
+
+不能将一个字符串添加到一个已经存在的字符变量上 因为字符变量只能收一个字符
+
+全新的字符串构建方式：字符串插值
+let a = 3
+let str = "\(a) x 3 = 9"
+
+
+
+switch语句和C语句的3点不同：
+1.没有break语句，不会自动执行完之后一直执行不退出。这样更加安全。因为有时候会漏写break。
+2.每一个case后面必须跟着一句话,它不像c语言一样case a: case b: ... 它使用逗号分隔相同输出语句的两个条件的
+3.必须要有default语句。
+eg:
+let c:Character = "a"
+switch c {
+case "a", "A": print("a")
+case "b", "B": print("b")
+default: print("nomatch")
+}
+
+
+
+函数是这样一种形式：
+func sayHello(personName: String) -> String {
+	let greeting = "hello, " + personName + "!"
+	return greeting
+}
