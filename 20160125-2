@@ -1,0 +1,55 @@
+//第七章 使用Xcode编写MVC程序
+	总结MVC的处理过程：
+	首先控制器接受用户的请求，并决定应该调用哪个模型来处理。然后模型用业务逻辑来处理用户的请求
+	并返回数据，最后控制器用相应的视图格式化模型返回的数据，并通过表示层呈现给用户。
+
+	MVC：Model、View、Controller。
+
+	Xcode提供了若干个模板，这样可以在应用程序中实现MVC架构。
+	1.View-Based Application(基于视图的应用程序)：应用程序中仅仅使用一个视图。
+	2.Navigation-Based Application(基于导航的应用程序)：需要多个视图之间进行切换的应用程序。
+	3.Utility Application(工具应用程序)：有一个主视图，可以把它翻过来修改设置
+	4.OpenGL ES application (OpenGL ES应用程序)：可以在创建3D游戏的时候使用这个模板
+	5.Tab Bar Application(标签栏应用程序)：屏幕底下有标签
+	6.Window-based Application(基于窗口的应用程序)：一个简单的带有一个窗口的应用程序
+
+
+@property指令可以简化访问
+@property (strong, nonatiomic) NSString *myString;
+相当于声明的一个实例变量，同时定义了对应的属性。
+
+strong
+该属性值对应 __strong 关键字，即该属性所声明的变量将成为对象的持有者。
+
+weak
+该属性对应 __weak 关键字，与 __weak 定义的变量一致，该属性所声明的变量将没有对象的所有权，并且当对象被破弃之后，对象将被自动赋值nil。
+
+nonatomic
+如果使用多线程，有时会出现两个线程互相等待对方导致锁死的情况（具体可以搜下线程方面的注意事项去了解）。
+在没有(nonatomic)的情况下，即默认(atomic)，会防止这种线程互斥出现，但是会消耗一定的资源。所以如果不是多线程的程序，
+打上(nonatomic)即可
+
+
+
+AppDelegate.h和AppDelegate.m组成了该项目将创建的UIApplication实例的委托。
+我们可以修改该文件，以添加控制应用程序运行时如何工作的方法。
+我们可以修改委托，在启动时执行应用程序级设置，告诉应用程序进入后台时如何做以及应用程序被迫退出的时候该如何处理。
+
+
+文本框 UITextField
+标签 UILabel
+按钮 UIButton
+
+♥在确保使用完视图之后，应该让代码中定义的实例变量不再指向对象，这样做的好处是这些文本框和标签占用的内存可以被重复重用
+在文件ViewController.m中
+-(void)viewDidUnload {
+	self.userInput = nil;
+	self.userOutput = nil;
+	[self setUserOutput: nil];
+	[self setUserInput: nil];
+}
+
+
+
+弃用viewDidUnload：
+所以，简单来说，对于iOS6，你不需要做任何以前viewDidUnload的事情，更不需要把以前viewDidUnload的代码移动到 didReceiveMemoryWarning方法中。
