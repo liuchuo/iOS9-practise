@@ -2,7 +2,7 @@
 //  ____UITests.swift
 //  十二生肖UITests
 //
-//  Created by ChenXin on 16/1/26.
+//  Created by ChenXin on 16/1/27.
 //  Copyright © 2016年 ChenXin. All rights reserved.
 //
 

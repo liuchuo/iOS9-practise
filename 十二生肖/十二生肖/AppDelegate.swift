@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  十二生肖
 //
-//  Created by ChenXin on 16/1/26.
+//  Created by ChenXin on 16/1/27.
 //  Copyright © 2016年 ChenXin. All rights reserved.
 //
 
