@@ -7,64 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5660AABB1C58B71A00FB2C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660AABA1C58B71A00FB2C11 /* AppDelegate.swift */; };
-		5660AABD1C58B71A00FB2C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660AABC1C58B71A00FB2C11 /* ViewController.swift */; };
-		5660AAC01C58B71A00FB2C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5660AABE1C58B71A00FB2C11 /* Main.storyboard */; };
-		5660AAC21C58B71A00FB2C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5660AAC11C58B71A00FB2C11 /* Assets.xcassets */; };
-		5660AAC51C58B71A00FB2C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5660AAC31C58B71A00FB2C11 /* LaunchScreen.storyboard */; };
-		5660AAD01C58B71A00FB2C11 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660AACF1C58B71A00FB2C11 /* ____Tests.swift */; };
-		5660AADB1C58B71A00FB2C11 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660AADA1C58B71A00FB2C11 /* ____UITests.swift */; };
+		560A70F51C58C32800F0D697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A70F41C58C32800F0D697 /* AppDelegate.swift */; };
+		560A70F71C58C32800F0D697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A70F61C58C32800F0D697 /* ViewController.swift */; };
+		560A70FA1C58C32800F0D697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560A70F81C58C32800F0D697 /* Main.storyboard */; };
+		560A70FC1C58C32800F0D697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560A70FB1C58C32800F0D697 /* Assets.xcassets */; };
+		560A70FF1C58C32800F0D697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560A70FD1C58C32800F0D697 /* LaunchScreen.storyboard */; };
+		560A710A1C58C32800F0D697 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A71091C58C32800F0D697 /* ____Tests.swift */; };
+		560A71151C58C32800F0D697 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A71141C58C32800F0D697 /* ____UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5660AACC1C58B71A00FB2C11 /* PBXContainerItemProxy */ = {
+		560A71061C58C32800F0D697 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5660AAAF1C58B71A00FB2C11 /* Project object */;
+			containerPortal = 560A70E91C58C32800F0D697 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5660AAB61C58B71A00FB2C11;
+			remoteGlobalIDString = 560A70F01C58C32800F0D697;
 			remoteInfo = "十二生肖";
 		};
-		5660AAD71C58B71A00FB2C11 /* PBXContainerItemProxy */ = {
+		560A71111C58C32800F0D697 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5660AAAF1C58B71A00FB2C11 /* Project object */;
+			containerPortal = 560A70E91C58C32800F0D697 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5660AAB61C58B71A00FB2C11;
+			remoteGlobalIDString = 560A70F01C58C32800F0D697;
 			remoteInfo = "十二生肖";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5660AAB71C58B71A00FB2C11 /* 十二生肖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "十二生肖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5660AABA1C58B71A00FB2C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5660AABC1C58B71A00FB2C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5660AABF1C58B71A00FB2C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5660AAC11C58B71A00FB2C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5660AAC41C58B71A00FB2C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5660AAC61C58B71A00FB2C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5660AACB1C58B71A00FB2C11 /* 十二生肖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5660AACF1C58B71A00FB2C11 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
-		5660AAD11C58B71A00FB2C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5660AAD61C58B71A00FB2C11 /* 十二生肖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5660AADA1C58B71A00FB2C11 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
-		5660AADC1C58B71A00FB2C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560A70F11C58C32800F0D697 /* 十二生肖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "十二生肖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560A70F41C58C32800F0D697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		560A70F61C58C32800F0D697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		560A70F91C58C32800F0D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		560A70FB1C58C32800F0D697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560A70FE1C58C32800F0D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		560A71001C58C32800F0D697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560A71051C58C32800F0D697 /* 十二生肖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560A71091C58C32800F0D697 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		560A710B1C58C32800F0D697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560A71101C58C32800F0D697 /* 十二生肖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560A71141C58C32800F0D697 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		560A71161C58C32800F0D697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C17A9E1C58C5E7002D71C6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5660AAB41C58B71A00FB2C11 /* Frameworks */ = {
+		560A70EE1C58C32800F0D697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAC81C58B71A00FB2C11 /* Frameworks */ = {
+		560A71021C58C32800F0D697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAD31C58B71A00FB2C11 /* Frameworks */ = {
+		560A710D1C58C32800F0D697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +75,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5660AAAE1C58B71A00FB2C11 = {
+		560A70E81C58C32800F0D697 = {
 			isa = PBXGroup;
 			children = (
-				5660AAB91C58B71A00FB2C11 /* 十二生肖 */,
-				5660AACE1C58B71A00FB2C11 /* 十二生肖Tests */,
-				5660AAD91C58B71A00FB2C11 /* 十二生肖UITests */,
-				5660AAB81C58B71A00FB2C11 /* Products */,
+				560A70F31C58C32800F0D697 /* 十二生肖 */,
+				560A71081C58C32800F0D697 /* 十二生肖Tests */,
+				560A71131C58C32800F0D697 /* 十二生肖UITests */,
+				560A70F21C58C32800F0D697 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5660AAB81C58B71A00FB2C11 /* Products */ = {
+		560A70F21C58C32800F0D697 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5660AAB71C58B71A00FB2C11 /* 十二生肖.app */,
-				5660AACB1C58B71A00FB2C11 /* 十二生肖Tests.xctest */,
-				5660AAD61C58B71A00FB2C11 /* 十二生肖UITests.xctest */,
+				560A70F11C58C32800F0D697 /* 十二生肖.app */,
+				560A71051C58C32800F0D697 /* 十二生肖Tests.xctest */,
+				560A71101C58C32800F0D697 /* 十二生肖UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5660AAB91C58B71A00FB2C11 /* 十二生肖 */ = {
+		560A70F31C58C32800F0D697 /* 十二生肖 */ = {
 			isa = PBXGroup;
 			children = (
-				5660AABA1C58B71A00FB2C11 /* AppDelegate.swift */,
-				5660AABC1C58B71A00FB2C11 /* ViewController.swift */,
-				5660AABE1C58B71A00FB2C11 /* Main.storyboard */,
-				5660AAC11C58B71A00FB2C11 /* Assets.xcassets */,
-				5660AAC31C58B71A00FB2C11 /* LaunchScreen.storyboard */,
-				5660AAC61C58B71A00FB2C11 /* Info.plist */,
+				560A70F41C58C32800F0D697 /* AppDelegate.swift */,
+				560A70F61C58C32800F0D697 /* ViewController.swift */,
+				560A70F81C58C32800F0D697 /* Main.storyboard */,
+				560A70FB1C58C32800F0D697 /* Assets.xcassets */,
+				560A70FD1C58C32800F0D697 /* LaunchScreen.storyboard */,
+				560A71001C58C32800F0D697 /* Info.plist */,
+				56C17A9E1C58C5E7002D71C6 /* MyPlayground.playground */,
 			);
 			path = "十二生肖";
 			sourceTree = "<group>";
 		};
-		5660AACE1C58B71A00FB2C11 /* 十二生肖Tests */ = {
+		560A71081C58C32800F0D697 /* 十二生肖Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5660AACF1C58B71A00FB2C11 /* ____Tests.swift */,
-				5660AAD11C58B71A00FB2C11 /* Info.plist */,
+				560A71091C58C32800F0D697 /* ____Tests.swift */,
+				560A710B1C58C32800F0D697 /* Info.plist */,
 			);
 			path = "十二生肖Tests";
 			sourceTree = "<group>";
 		};
-		5660AAD91C58B71A00FB2C11 /* 十二生肖UITests */ = {
+		560A71131C58C32800F0D697 /* 十二生肖UITests */ = {
 			isa = PBXGroup;
 			children = (
-				5660AADA1C58B71A00FB2C11 /* ____UITests.swift */,
-				5660AADC1C58B71A00FB2C11 /* Info.plist */,
+				560A71141C58C32800F0D697 /* ____UITests.swift */,
+				560A71161C58C32800F0D697 /* Info.plist */,
 			);
 			path = "十二生肖UITests";
 			sourceTree = "<group>";
@@ -128,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5660AAB61C58B71A00FB2C11 /* 十二生肖 */ = {
+		560A70F01C58C32800F0D697 /* 十二生肖 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5660AADF1C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖" */;
+			buildConfigurationList = 560A71191C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖" */;
 			buildPhases = (
-				5660AAB31C58B71A00FB2C11 /* Sources */,
-				5660AAB41C58B71A00FB2C11 /* Frameworks */,
-				5660AAB51C58B71A00FB2C11 /* Resources */,
+				560A70ED1C58C32800F0D697 /* Sources */,
+				560A70EE1C58C32800F0D697 /* Frameworks */,
+				560A70EF1C58C32800F0D697 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +144,72 @@
 			);
 			name = "十二生肖";
 			productName = "十二生肖";
-			productReference = 5660AAB71C58B71A00FB2C11 /* 十二生肖.app */;
+			productReference = 560A70F11C58C32800F0D697 /* 十二生肖.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5660AACA1C58B71A00FB2C11 /* 十二生肖Tests */ = {
+		560A71041C58C32800F0D697 /* 十二生肖Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5660AAE21C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */;
+			buildConfigurationList = 560A711C1C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */;
 			buildPhases = (
-				5660AAC71C58B71A00FB2C11 /* Sources */,
-				5660AAC81C58B71A00FB2C11 /* Frameworks */,
-				5660AAC91C58B71A00FB2C11 /* Resources */,
+				560A71011C58C32800F0D697 /* Sources */,
+				560A71021C58C32800F0D697 /* Frameworks */,
+				560A71031C58C32800F0D697 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5660AACD1C58B71A00FB2C11 /* PBXTargetDependency */,
+				560A71071C58C32800F0D697 /* PBXTargetDependency */,
 			);
 			name = "十二生肖Tests";
 			productName = "十二生肖Tests";
-			productReference = 5660AACB1C58B71A00FB2C11 /* 十二生肖Tests.xctest */;
+			productReference = 560A71051C58C32800F0D697 /* 十二生肖Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5660AAD51C58B71A00FB2C11 /* 十二生肖UITests */ = {
+		560A710F1C58C32800F0D697 /* 十二生肖UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5660AAE51C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */;
+			buildConfigurationList = 560A711F1C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */;
 			buildPhases = (
-				5660AAD21C58B71A00FB2C11 /* Sources */,
-				5660AAD31C58B71A00FB2C11 /* Frameworks */,
-				5660AAD41C58B71A00FB2C11 /* Resources */,
+				560A710C1C58C32800F0D697 /* Sources */,
+				560A710D1C58C32800F0D697 /* Frameworks */,
+				560A710E1C58C32800F0D697 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5660AAD81C58B71A00FB2C11 /* PBXTargetDependency */,
+				560A71121C58C32800F0D697 /* PBXTargetDependency */,
 			);
 			name = "十二生肖UITests";
 			productName = "十二生肖UITests";
-			productReference = 5660AAD61C58B71A00FB2C11 /* 十二生肖UITests.xctest */;
+			productReference = 560A71101C58C32800F0D697 /* 十二生肖UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5660AAAF1C58B71A00FB2C11 /* Project object */ = {
+		560A70E91C58C32800F0D697 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = ChenXin;
 				TargetAttributes = {
-					5660AAB61C58B71A00FB2C11 = {
+					560A70F01C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
 					};
-					5660AACA1C58B71A00FB2C11 = {
+					560A71041C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
-						TestTargetID = 5660AAB61C58B71A00FB2C11;
+						TestTargetID = 560A70F01C58C32800F0D697;
 					};
-					5660AAD51C58B71A00FB2C11 = {
+					560A710F1C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
-						TestTargetID = 5660AAB61C58B71A00FB2C11;
+						TestTargetID = 560A70F01C58C32800F0D697;
 					};
 				};
 			};
-			buildConfigurationList = 5660AAB21C58B71A00FB2C11 /* Build configuration list for PBXProject "十二生肖" */;
+			buildConfigurationList = 560A70EC1C58C32800F0D697 /* Build configuration list for PBXProject "十二生肖" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5660AAAE1C58B71A00FB2C11;
-			productRefGroup = 5660AAB81C58B71A00FB2C11 /* Products */;
+			mainGroup = 560A70E81C58C32800F0D697;
+			productRefGroup = 560A70F21C58C32800F0D697 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5660AAB61C58B71A00FB2C11 /* 十二生肖 */,
-				5660AACA1C58B71A00FB2C11 /* 十二生肖Tests */,
-				5660AAD51C58B71A00FB2C11 /* 十二生肖UITests */,
+				560A70F01C58C32800F0D697 /* 十二生肖 */,
+				560A71041C58C32800F0D697 /* 十二生肖Tests */,
+				560A710F1C58C32800F0D697 /* 十二生肖UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5660AAB51C58B71A00FB2C11 /* Resources */ = {
+		560A70EF1C58C32800F0D697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5660AAC51C58B71A00FB2C11 /* LaunchScreen.storyboard in Resources */,
-				5660AAC21C58B71A00FB2C11 /* Assets.xcassets in Resources */,
-				5660AAC01C58B71A00FB2C11 /* Main.storyboard in Resources */,
+				560A70FF1C58C32800F0D697 /* LaunchScreen.storyboard in Resources */,
+				560A70FC1C58C32800F0D697 /* Assets.xcassets in Resources */,
+				560A70FA1C58C32800F0D697 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAC91C58B71A00FB2C11 /* Resources */ = {
+		560A71031C58C32800F0D697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAD41C58B71A00FB2C11 /* Resources */ = {
+		560A710E1C58C32800F0D697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +257,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5660AAB31C58B71A00FB2C11 /* Sources */ = {
+		560A70ED1C58C32800F0D697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5660AABD1C58B71A00FB2C11 /* ViewController.swift in Sources */,
-				5660AABB1C58B71A00FB2C11 /* AppDelegate.swift in Sources */,
+				560A70F71C58C32800F0D697 /* ViewController.swift in Sources */,
+				560A70F51C58C32800F0D697 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAC71C58B71A00FB2C11 /* Sources */ = {
+		560A71011C58C32800F0D697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5660AAD01C58B71A00FB2C11 /* ____Tests.swift in Sources */,
+				560A710A1C58C32800F0D697 /* ____Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5660AAD21C58B71A00FB2C11 /* Sources */ = {
+		560A710C1C58C32800F0D697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5660AADB1C58B71A00FB2C11 /* ____UITests.swift in Sources */,
+				560A71151C58C32800F0D697 /* ____UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5660AACD1C58B71A00FB2C11 /* PBXTargetDependency */ = {
+		560A71071C58C32800F0D697 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5660AAB61C58B71A00FB2C11 /* 十二生肖 */;
-			targetProxy = 5660AACC1C58B71A00FB2C11 /* PBXContainerItemProxy */;
+			target = 560A70F01C58C32800F0D697 /* 十二生肖 */;
+			targetProxy = 560A71061C58C32800F0D697 /* PBXContainerItemProxy */;
 		};
-		5660AAD81C58B71A00FB2C11 /* PBXTargetDependency */ = {
+		560A71121C58C32800F0D697 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5660AAB61C58B71A00FB2C11 /* 十二生肖 */;
-			targetProxy = 5660AAD71C58B71A00FB2C11 /* PBXContainerItemProxy */;
+			target = 560A70F01C58C32800F0D697 /* 十二生肖 */;
+			targetProxy = 560A71111C58C32800F0D697 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5660AABE1C58B71A00FB2C11 /* Main.storyboard */ = {
+		560A70F81C58C32800F0D697 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5660AABF1C58B71A00FB2C11 /* Base */,
+				560A70F91C58C32800F0D697 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5660AAC31C58B71A00FB2C11 /* LaunchScreen.storyboard */ = {
+		560A70FD1C58C32800F0D697 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5660AAC41C58B71A00FB2C11 /* Base */,
+				560A70FE1C58C32800F0D697 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +317,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5660AADD1C58B71A00FB2C11 /* Debug */ = {
+		560A71171C58C32800F0D697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		5660AADE1C58B71A00FB2C11 /* Release */ = {
+		560A71181C58C32800F0D697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,7 +398,7 @@
 			};
 			name = Release;
 		};
-		5660AAE01C58B71A00FB2C11 /* Debug */ = {
+		560A711A1C58C32800F0D697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -407,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		5660AAE11C58B71A00FB2C11 /* Release */ = {
+		560A711B1C58C32800F0D697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -418,7 +420,7 @@
 			};
 			name = Release;
 		};
-		5660AAE31C58B71A00FB2C11 /* Debug */ = {
+		560A711D1C58C32800F0D697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -430,7 +432,7 @@
 			};
 			name = Debug;
 		};
-		5660AAE41C58B71A00FB2C11 /* Release */ = {
+		560A711E1C58C32800F0D697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,7 +444,7 @@
 			};
 			name = Release;
 		};
-		5660AAE61C58B71A00FB2C11 /* Debug */ = {
+		560A71201C58C32800F0D697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "十二生肖UITests/Info.plist";
@@ -454,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		5660AAE71C58B71A00FB2C11 /* Release */ = {
+		560A71211C58C32800F0D697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "十二生肖UITests/Info.plist";
@@ -469,40 +471,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5660AAB21C58B71A00FB2C11 /* Build configuration list for PBXProject "十二生肖" */ = {
+		560A70EC1C58C32800F0D697 /* Build configuration list for PBXProject "十二生肖" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5660AADD1C58B71A00FB2C11 /* Debug */,
-				5660AADE1C58B71A00FB2C11 /* Release */,
+				560A71171C58C32800F0D697 /* Debug */,
+				560A71181C58C32800F0D697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5660AADF1C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖" */ = {
+		560A71191C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5660AAE01C58B71A00FB2C11 /* Debug */,
-				5660AAE11C58B71A00FB2C11 /* Release */,
+				560A711A1C58C32800F0D697 /* Debug */,
+				560A711B1C58C32800F0D697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5660AAE21C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */ = {
+		560A711C1C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5660AAE31C58B71A00FB2C11 /* Debug */,
-				5660AAE41C58B71A00FB2C11 /* Release */,
+				560A711D1C58C32800F0D697 /* Debug */,
+				560A711E1C58C32800F0D697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5660AAE51C58B71A00FB2C11 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */ = {
+		560A711F1C58C32800F0D697 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5660AAE61C58B71A00FB2C11 /* Debug */,
-				5660AAE71C58B71A00FB2C11 /* Release */,
+				560A71201C58C32800F0D697 /* Debug */,
+				560A71211C58C32800F0D697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5660AAAF1C58B71A00FB2C11 /* Project object */;
+	rootObject = 560A70E91C58C32800F0D697 /* Project object */;
 }
