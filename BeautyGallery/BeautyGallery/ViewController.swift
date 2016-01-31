@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    //segue: 连接两个 ViewController 之间的桥梁
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "GoToGallery" {
            let index = beautyPicker.selectedRowInComponent(0)
@@ -48,11 +50,13 @@ class ViewController: UIViewController {
                 imageName = nil
             }
             
-            var vc = segue.destinationViewController as! GalleryViewController
+            let vc = segue.destinationViewController as! GalleryViewController
             vc.imageName = imageName
         }
     }
     
+    
+    //返回按钮 Unwind segue to "Exit"
     @IBAction func close(segue: UIStoryboardSegue) {
         print("closed")
     }
