@@ -52,5 +52,9 @@ class ViewController: UIViewController {
             vc.imageName = imageName
         }
     }
+    
+    @IBAction func close(segue: UIStoryboardSegue) {
+        print("closed")
+    }
 }
 
