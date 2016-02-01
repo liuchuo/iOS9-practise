@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="w9l-RM-TGc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="zd4-vV-CDP">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="302"/>
+            <point key="canvasLocation" x="1266" y="302"/>
         </scene>
         <!--Gallery View Controller-->
         <scene sceneID="xmc-xX-ntc">
@@ -88,12 +88,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wsY-OO-yMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="mxQ-tP-MPg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="302"/>
+            <point key="canvasLocation" x="1684" y="302"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--中国-->
         <scene sceneID="RqK-Zo-JiV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w9l-RM-TGc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="中国" image="great_wall" badgeValue="8" id="f5P-A7-p0C"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KUI-Wm-kvV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -107,10 +108,81 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hmb-3e-0Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="300" y="302"/>
+            <point key="canvasLocation" x="832" y="302"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Woc-39-vMY">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="zd4-vV-CDP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="is7-2A-vZ6">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="w9l-RM-TGc" kind="relationship" relationship="viewControllers" id="fbq-Yb-kzy"/>
+                        <segue destination="NvU-RF-SOn" kind="relationship" relationship="viewControllers" id="70p-m3-cnV"/>
+                        <segue destination="tjd-D0-6E0" kind="relationship" relationship="viewControllers" id="KvT-25-7ea"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oMi-SN-1bh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277" y="945"/>
+        </scene>
+        <!--日本-->
+        <scene sceneID="ICM-tX-fVu">
+            <objects>
+                <viewController id="NvU-RF-SOn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fjP-tO-oxE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="japanese" id="d2u-8A-sq2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="日本" image="geisha" id="2ss-Nt-8zF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5n4-Xm-vsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="945"/>
+        </scene>
+        <!--韩国-->
+        <scene sceneID="JTp-MG-7mm">
+            <objects>
+                <viewController id="tjd-D0-6E0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZM4-2y-k4P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="korean" id="2OO-o7-mCd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="韩国" image="origami" id="3vo-6o-Tlk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v99-dk-nSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="1640"/>
         </scene>
     </scenes>
     <resources>
+        <image name="geisha" width="25" height="25"/>
+        <image name="great_wall" width="25" height="25"/>
+        <image name="japanese" width="320" height="568"/>
+        <image name="korean" width="320" height="568"/>
+        <image name="origami" width="25" height="25"/>
         <image name="yangmi" width="320" height="568"/>
     </resources>
 </document>
