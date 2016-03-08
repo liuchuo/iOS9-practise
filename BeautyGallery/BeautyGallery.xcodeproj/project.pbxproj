@@ -11,6 +11,7 @@
 		569AE2031C5E02E100C1F0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AE2021C5E02E100C1F0EC /* ViewController.swift */; };
 		569AE2061C5E02E100C1F0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569AE2041C5E02E100C1F0EC /* Main.storyboard */; };
 		569AE20B1C5E02E100C1F0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569AE2091C5E02E100C1F0EC /* LaunchScreen.storyboard */; };
+		56BCD4EF1C8E627C007D16E0 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BCD4EE1C8E627C007D16E0 /* KoreanViewController.swift */; };
 		56E90A021C5E0A33001F7545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E90A011C5E0A33001F7545 /* Images.xcassets */; };
 		56E90A041C5E15B9001F7545 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E90A031C5E15B9001F7545 /* ViewControllerExtension.swift */; };
 		56E90A061C5E2B71001F7545 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E90A051C5E2B71001F7545 /* GalleryViewController.swift */; };
@@ -23,6 +24,7 @@
 		569AE2051C5E02E100C1F0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		569AE20A1C5E02E100C1F0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		569AE20C1C5E02E100C1F0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BCD4EE1C8E627C007D16E0 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		56E90A011C5E0A33001F7545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56E90A031C5E15B9001F7545 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		56E90A051C5E2B71001F7545 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				569AE20C1C5E02E100C1F0EC /* Info.plist */,
 				56E90A031C5E15B9001F7545 /* ViewControllerExtension.swift */,
 				56E90A051C5E2B71001F7545 /* GalleryViewController.swift */,
+				56BCD4EE1C8E627C007D16E0 /* KoreanViewController.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				569AE2031C5E02E100C1F0EC /* ViewController.swift in Sources */,
+				56BCD4EF1C8E627C007D16E0 /* KoreanViewController.swift in Sources */,
 				56E90A061C5E2B71001F7545 /* GalleryViewController.swift in Sources */,
 				569AE2011C5E02E100C1F0EC /* AppDelegate.swift in Sources */,
 				56E90A041C5E15B9001F7545 /* ViewControllerExtension.swift in Sources */,
