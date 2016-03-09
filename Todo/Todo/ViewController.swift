@@ -11,6 +11,7 @@ import UIKit
 //定义一个全局变量。作为本地的数据库（运行时的数据库，只保存在内存里面）
 //定义全局变量，使得整个app里面的其他代码文件都能访问它
 var todos: [TodoModel] = []
+var filteredTodos:[TodoModel] = []
 
 func dateFromString(dateStr: String) -> NSDate? {
     let dateFormatter = NSDateFormatter()
@@ -19,7 +20,7 @@ func dateFromString(dateStr: String) -> NSDate? {
     return date
 }
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate {
     
 
     @IBOutlet weak var tableView: UITableView!
@@ -35,15 +36,30 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //激活edit模式
         navigationItem.leftBarButtonItem = editButtonItem()
+        
+        //隐藏搜索栏
+        var contentOffset = tableView.contentOffset
+        contentOffset.y += searchDisplayController!.searchBar.frame.size.height
+        tableView.contentOffset = contentOffset
     }
+        
+    
     
     //MARK-UITableViewDataSource
-    
-    
     @available(iOS 2.0, *)
     public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if tableView == searchDisplayController?.searchResultsTableView {
+            return filteredTodos.count
+        }
+        
         return todos.count
     }
+    
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 80
+    }
+    
     
     // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
     // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
@@ -52,7 +68,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCellWithIdentifier("todoCell")! as UITableViewCell
         
-        var todo = todos[indexPath.row] as TodoModel
+        var todo: TodoModel
+        if tableView == searchDisplayController?.searchResultsTableView {
+            todo = filteredTodos[indexPath.row] as TodoModel
+        }
+        else {
+            todo = todos[indexPath.row] as TodoModel
+        }
        
         var image = cell.viewWithTag(101) as! UIImageView
         var title = cell.viewWithTag(102) as! UILabel
@@ -69,6 +91,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         date.text = dateFormatter.stringFromDate(todo.date)
         return cell
     }
+    
+    
     
     //MARK-UITableViewDeleage
     public func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
@@ -96,6 +120,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         todos.insert(todo, atIndex: destinationIndexPath.row)
     }
     
+    
+    // Search
+    public func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String?) -> Bool {
+        
+        filteredTodos = todos.filter(){$0.title.rangeOfString(searchString!) != nil}
+        return true
+    }
     
     
     
