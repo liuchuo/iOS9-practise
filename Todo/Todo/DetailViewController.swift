@@ -16,6 +16,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var shoppingCartButton: UIButton!
     
+    @IBOutlet weak var fdafj: UIButton!
     @IBOutlet weak var travelButton: UIButton!
     
     @IBOutlet weak var todoItem: UITextField!
