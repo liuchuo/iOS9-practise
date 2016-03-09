@@ -85,6 +85,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
 
+    
+    // Move cell
+    public func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return editing
+    }
+    
+    public func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+        let todo = todos.removeAtIndex(sourceIndexPath.row)
+        todos.insert(todo, atIndex: destinationIndexPath.row)
+    }
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
