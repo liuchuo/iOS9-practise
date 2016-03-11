@@ -37,10 +37,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //激活edit模式
         navigationItem.leftBarButtonItem = editButtonItem()
         
-        //隐藏搜索栏
-        var contentOffset = tableView.contentOffset
-        contentOffset.y += searchDisplayController!.searchBar.frame.size.height
-        tableView.contentOffset = contentOffset
     }
         
     
