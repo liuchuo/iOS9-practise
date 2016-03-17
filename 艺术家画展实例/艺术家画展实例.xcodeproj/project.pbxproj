@@ -10,7 +10,7 @@
 		56FD50FF1C97E6E2006CBC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD50FE1C97E6E2006CBC72 /* AppDelegate.swift */; };
 		56FD51041C97E6E2006CBC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FD51021C97E6E2006CBC72 /* Main.storyboard */; };
 		56FD51091C97E6E2006CBC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FD51071C97E6E2006CBC72 /* LaunchScreen.storyboard */; };
-		56FD51111C97EC01006CBC72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FD51101C97EC01006CBC72 /* Images.xcassets */; };
+		56FD51351C980356006CBC72 /* Images-4.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FD51341C980356006CBC72 /* Images-4.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		56FD51031C97E6E2006CBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56FD51081C97E6E2006CBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56FD510A1C97E6E2006CBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56FD51101C97EC01006CBC72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56FD51341C980356006CBC72 /* Images-4.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-4.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 				56FD51021C97E6E2006CBC72 /* Main.storyboard */,
 				56FD51071C97E6E2006CBC72 /* LaunchScreen.storyboard */,
 				56FD510A1C97E6E2006CBC72 /* Info.plist */,
-				56FD51101C97EC01006CBC72 /* Images.xcassets */,
+				56FD51341C980356006CBC72 /* Images-4.xcassets */,
 			);
 			path = "艺术家画展实例";
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FD51111C97EC01006CBC72 /* Images.xcassets in Resources */,
 				56FD51091C97E6E2006CBC72 /* LaunchScreen.storyboard in Resources */,
 				56FD51041C97E6E2006CBC72 /* Main.storyboard in Resources */,
+				56FD51351C980356006CBC72 /* Images-4.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +283,7 @@
 				56FD510F1C97E6E2006CBC72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
