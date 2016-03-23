@@ -20,9 +20,13 @@ class mytableview: UITableView, UITableViewDataSource {
 
     
     public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return 3
     }// Default is 1 if not implemented
     
+    
+    public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Title"
+    }
 
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("cell")
