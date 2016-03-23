@@ -12,35 +12,43 @@ class mytableview: UITableView, UITableViewDataSource {
     
     let TAG_CELL_LABEL = 1
     let dataArr = ["hehe", "haha", "hzhz"]
+    
+    var data:NSDictionary!
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
+        //通过一个自己设定的 plist 文件来初始化一个 NSDictionary 字典
+        data = NSDictionary(contentsOfURL: NSBundle.mainBundle().URLForResource("data", withExtension: "plist")!)!
+        
         self.dataSource = self
     }
+    
+    
 
     
-    public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 3
+    internal func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return data.count
     }// Default is 1 if not implemented
     
     
-    public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Title"
+    internal func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return data.allKeys[section] as? String
     }
 
-    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("cell")
+    internal func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell")
         
-        var label = cell?.viewWithTag(TAG_CELL_LABEL) as! UILabel
-        label.text = dataArr[indexPath.row]
+        let label = cell?.viewWithTag(TAG_CELL_LABEL) as! UILabel
+        label.text = (data.allValues[indexPath.section] as! NSArray).objectAtIndex(indexPath.row) as? String
         
         return cell!
         
     }
     
     @available(iOS 2.0, *)
-    public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+    internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (data.allValues[section] as! NSArray).count
     }
     
     /*

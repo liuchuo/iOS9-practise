@@ -13,6 +13,7 @@
 		563FFAF11CA27445005F42C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563FFAF01CA27445005F42C1 /* Assets.xcassets */; };
 		563FFAF41CA27445005F42C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563FFAF21CA27445005F42C1 /* LaunchScreen.storyboard */; };
 		563FFAFC1CA274CC005F42C1 /* mytableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FFAFB1CA274CC005F42C1 /* mytableview.swift */; };
+		56653F1B1CA2B12B006B3855 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56653F1A1CA2B12B006B3855 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		563FFAF31CA27445005F42C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563FFAF51CA27445005F42C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563FFAFB1CA274CC005F42C1 /* mytableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mytableview.swift; sourceTree = "<group>"; };
+		56653F1A1CA2B12B006B3855 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				563FFAF21CA27445005F42C1 /* LaunchScreen.storyboard */,
 				563FFAF51CA27445005F42C1 /* Info.plist */,
 				563FFAFB1CA274CC005F42C1 /* mytableview.swift */,
+				56653F1A1CA2B12B006B3855 /* data.plist */,
 			);
 			path = learniostableview;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				563FFAF41CA27445005F42C1 /* LaunchScreen.storyboard in Resources */,
 				563FFAF11CA27445005F42C1 /* Assets.xcassets in Resources */,
+				56653F1B1CA2B12B006B3855 /* data.plist in Resources */,
 				563FFAEF1CA27445005F42C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				563FFAFA1CA27445005F42C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
