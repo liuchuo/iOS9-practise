@@ -8,7 +8,7 @@
 
 import UIKit
 
-class mytableview: UITableView, UITableViewDataSource {
+class mytableview: UITableView, UITableViewDataSource, UITableViewDelegate {
     
     let TAG_CELL_LABEL = 1
     let dataArr = ["hehe", "haha", "hzhz"]
@@ -24,7 +24,9 @@ class mytableview: UITableView, UITableViewDataSource {
         self.dataSource = self
     }
     
-    
+    internal func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("\((data.allValues[indexPath.section] as! NSArray).objectAtIndex(indexPath.row)) Clicked")
+    }
 
     
     internal func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -46,7 +48,6 @@ class mytableview: UITableView, UITableViewDataSource {
         
     }
     
-    @available(iOS 2.0, *)
     internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (data.allValues[section] as! NSArray).count
     }
