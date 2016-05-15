@@ -35,9 +35,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="img1" destination="zZ3-n6-GBx" id="BAc-kw-MPm"/>
+                        <outlet property="img2" destination="mYZ-3b-6ZL" id="dI8-1t-Vpc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color" id="zZ3-n6-GBx">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="35CD90B1-3950-4E76-83DA-17C73F5C88C6" id="mYZ-3b-6ZL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="35CD90B1-3950-4E76-83DA-17C73F5C88C6" width="1464" height="568"/>
+        <image name="color" width="600" height="350"/>
+    </resources>
 </document>
