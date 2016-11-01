@@ -196,15 +196,18 @@
 					560A70F01C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
+						LastSwiftMigration = 0800;
 					};
 					560A71041C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
+						LastSwiftMigration = 0800;
 						TestTargetID = 560A70F01C58C32800F0D697;
 					};
 					560A710F1C58C32800F0D697 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = A84NV4F2MU;
+						LastSwiftMigration = 0800;
 						TestTargetID = 560A70F01C58C32800F0D697;
 					};
 				};
@@ -406,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/十二生肖.app/十二生肖";
 			};
 			name = Debug;
@@ -440,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/十二生肖.app/十二生肖";
 			};
 			name = Release;
@@ -451,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "十二生肖";
 				USES_XCTRUNNER = YES;
 			};
@@ -463,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchuo.net.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "十二生肖";
 				USES_XCTRUNNER = YES;
 			};
